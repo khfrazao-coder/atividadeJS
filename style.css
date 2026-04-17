@@ -1,0 +1,55 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #ffe4ec, #f8d7ff);
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Título principal */
+h1 {
+    font-family: 'Georgia', serif;
+    color: #d46a92;
+    font-size: 36px;
+    text-shadow: 1px 1px 5px rgba(255, 182, 193, 0.5);
+}
+
+/* Subtítulos */
+h2 {
+    margin-top: 30px;
+    color: #a14d73;
+    font-weight: 500;
+}
+
+/* Botões fofos */
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+
+    background: linear-gradient(135deg, #ff9ecf, #ffb6d9);
+    color: white;
+    font-weight: bold;
+
+    box-shadow: 0 4px 10px rgba(255, 182, 193, 0.5);
+    transition: all 0.3s ease;
+}
+
+/* Hover (agora correto) */
+button:hover {
+    background: linear-gradient(135deg, #ff7eb9, #ff9ecf);
+    transform: scale(1.05);
+}
+
+/* Caixinha (se usar depois) */
+#resultado {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff0f5;
+    border-radius: 15px;
+    border: 2px dashed #ffb6c1;
+    box-shadow: 0 0 15px rgba(255, 182, 193, 0.3);
+}
